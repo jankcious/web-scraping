@@ -1,0 +1,162 @@
+/*** ESSENTIAL STYLES ***/
+.sf-menu, .sf-menu * {
+	margin:			0;
+	padding:		0;
+	list-style:		none;
+}
+
+.sf-menu ul {
+	position:		absolute;
+	top:			-999em;
+	width:			10em; /* left offset of submenus need to match (see below) */
+}
+.sf-menu ul li {
+	width:			100%;
+}
+.sf-menu li:hover {
+	visibility:		inherit; /* fixes IE7 'sticky bug' */
+}
+.sf-menu li {
+	position:		relative;
+}
+.sf-menu li lu li{
+	float:			left;
+}
+.sf-menu a {
+	display:		block;
+	position:		relative;
+}
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+	left:			0;
+	top:			2.5em; /* match top ul list item height */
+
+}
+ul.sf-menu li:hover li ul,
+ul.sf-menu li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-menu li li:hover ul,
+ul.sf-menu li li.sfHover ul {
+	left:			10em; /* match ul width */
+	top:			0;
+}
+ul.sf-menu li li:hover li ul,
+ul.sf-menu li li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-menu li li li:hover ul,
+ul.sf-menu li li li.sfHover ul {
+	left:			10em; /* match ul width */
+	top:			0;
+}
+
+/*** SKIN ***/
+#nav a {
+	color: #ffffff;
+	zoom: 1;
+	*display: inline;
+}
+
+#nav li {
+    	display: inline-block;
+    	font-family: Georgia,Times New Roman,serif;
+    	font-size: 17px;
+	zoom: 1;
+	*display: inline;
+}
+
+#nav li a {
+    	display: inline-block;
+    	float: left;
+    	height: 51px;
+	zoom: 1;
+	*display: inline;
+	cursor: pointer;
+}
+
+#nav li a span {
+    	display: inline-block;
+    	float: left;
+    	height: 24px;
+    	padding: 13px 13px 12px 14px;
+	zoom: 1;
+	line-height: 1.4;
+	*display: inline;
+
+	cursor: pointer;
+}
+
+#nav li a:hover {
+	background: #3d3d3d;
+	cursor: pointer;
+}
+
+#nav .sf-menu li a:hover,
+#nav .sf-menu li.sfHover a,
+#nav .sf-menu li.current-menu-parent a,
+#nav .sf-menu li.current-menu-item a {
+	background: #3d3d3d;
+}
+
+#nav li ul {
+	margin-top: 8px;
+}
+
+
+#nav li li {	
+	border-left: 0;
+	padding: 0;
+	font-size: 14px;
+}
+
+#nav li li a {
+	background: #545252 !important;
+	display: block;
+	padding: 6px 5px;
+	height: 18px;
+	cursor: pointer;
+    z-index:400;
+	width: 120%;
+}
+
+#nav li li a span {
+	height: 18px;
+    	padding: 0;
+    	text-align: left;
+	width: 120%;
+
+	cursor: pointer;
+}
+
+#nav li li li a {
+	background: #5f5f5f !important;
+	display: block;
+	padding: 6px 5px;
+	height: 18px;
+	cursor: pointer;
+	z-index:500;
+}
+
+#nav li li li a span{
+
+}
+
+#nav li li a:hover {
+	background: #3d3d3d !important;
+}
+
+#nav li li ul { margin: 0; }
+
+/*** shadows for all but IE6 ***/
+.sf-shadow ul {
+	background:	url('../images/shadow.png') no-repeat bottom right;
+	padding: 0 8px 9px 0;
+	-moz-border-radius-bottomleft: 17px;
+	-moz-border-radius-topright: 17px;
+	-webkit-border-top-right-radius: 17px;
+	-webkit-border-bottom-left-radius: 17px;
+}
+.sf-shadow ul.sf-shadow-off {
+	background: transparent;
+}

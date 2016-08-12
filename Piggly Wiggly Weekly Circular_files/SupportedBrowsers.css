@@ -1,0 +1,27 @@
+/* compass imports */
+/* default colors */
+/* default widths */
+/* variables used throughout the site */
+/* line 2, ../_SupportedBrowsers.scss */
+.support-notification {
+  width: 600px;
+  margin: 5px auto 5px auto;
+  padding: 5px 20px 5px 20px;
+  text-align: center;
+}
+
+/* line 10, ../_SupportedBrowsers.scss */
+.support-notification-image {
+  margin-right: 5px;
+}
+
+/* line 15, ../_SupportedBrowsers.scss */
+.support-notification h2 {
+  text-align: left;
+  margin-left: 10px;
+}
+
+/* line 21, ../_SupportedBrowsers.scss */
+.support-notification p {
+  text-align: left;
+}

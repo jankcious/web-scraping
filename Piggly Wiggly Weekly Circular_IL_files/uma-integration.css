@@ -1,0 +1,234 @@
+/* ============== Header ==================================== */
+#header {
+	background: url(https://shopthepig.com/wp-content/themes/pigglywiggly/images/bg_header.png) no-repeat;
+	position: relative;
+	z-index: 9;
+	height: 1%;
+}
+
+#header-layer-2 {
+	height: 213px;
+}
+
+#header-top {
+	height: 162px;
+	position: relative;
+	z-index: 9;
+}
+
+#logo-container {
+
+	position: absolute;
+	left: 60px;
+	top: 46px;
+	z-index:99;
+}
+
+#logo-mask {
+
+	position: absolute;
+	left: 60px;
+	top: 46px;
+	z-index:100;
+}
+
+#logo {
+	background: url(https://shopthepig.com/wp-content/themes/pigglywiggly/images/logo.png) no-repeat;
+	width: 340px;
+	height: 96px;
+	margin-top: 10px;
+}
+
+#logo a {
+	display: block;
+	text-indent: -9999px;
+	width: 340px;
+	height: 96px;
+	
+}
+
+#header-home-link {
+	display: block;
+	text-indent: -9999px;
+	width: 340px;
+	height: 79px;	
+	position: absolute;
+	z-index: 99;
+	top: 70px;
+	left: 60px;
+}
+
+#your-store-box-wrapper {
+	float: right;
+	padding-top: 112px;
+	width: 398px;
+}
+
+#your-store-box {
+	background: #ffffff;
+	border: 2px solid #000000;
+	padding: 4px 7px 5px 5px;
+	font-size: 12px;	
+	float: left;
+	line-height: 16px;
+	-webkit-box-shadow: #000000 3px 1px 0px;
+	-moz-box-shadow: #000000 3px 1px 0px;
+	box-shadow: #000000 3px 1px 0px;
+}
+
+#your-store-box a {
+	color: #448bb9;
+	text-decoration: underline;
+}
+
+#header-shopping-list {
+	position: absolute;
+	right: 32px;
+	top: 19px;
+}
+#wb-container {
+width: 225px;
+height: 85px;
+left: 660px;
+top: 94px;
+position: relative;
+display: none;
+}
+#header-black-box {
+	position: absolute;
+	right: 8px;
+	top: 5px;
+       width: 188px;
+       height: 60px;
+       background: #000000;
+}
+#header-white-box {
+	position: absolute;
+	right: 14px;
+       width: 185px;
+       height: 55px;
+       background: #FFFFFF;
+	padding: 3px 1px 1px 3px;
+       font-family: 'calibri', sans-serif;
+       font-size: 13px;
+	letter-spacing: .3px;
+       line-height: 16px;
+       z-index:999;
+
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+    #header-white-box{
+	  font-size: 12px;
+
+	 }
+}
+a.class1:link
+{
+	color: blue;
+	text-decoration: underline;
+}
+a.class1:visited
+{
+	color: blue;
+	text-decoration: underline;
+}
+a.class1:hover
+{
+	color: orange;
+	text-decoration: underline;
+}
+
+
+#nav-wrapper {
+	position: relative;
+	z-index: 1;
+	padding: 0 32px;
+}
+
+#nav {
+    background: #545252;
+    height: 51px;
+    position: relative;
+    width: 1025px;
+}
+#menu-main-menu {
+    text-align: center;
+height:51px;
+}
+
+#corner-nav-bottom-left {
+	background: url(https://shopthepig.com/wp-content/themes/pigglywiggly/images/corner_nav.png) left bottom no-repeat;
+	width: 7px;
+	height: 7px;
+	font-size: 1px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+#corner-nav-bottom-right {
+	background: url(https://shopthepig.com/wp-content/themes/pigglywiggly/images/corner_nav.png) right bottom no-repeat;
+	width: 7px;
+	height: 7px;
+	font-size: 1px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+#nav .corner-for-interior {
+	background-image: url(https://shopthepig.com/wp-content/themes/pigglywiggly/images/corner_nav_white.png);
+}
+#nav li a {
+    display: inline-block;
+    height: 51px;
+}
+
+
+/* ============== Footer ==================================== */
+#footer {
+	padding: 18px 32px 51px;
+}
+
+#footer-inner {
+	background: #a2c180;
+	padding: 20px 25px 5px 29px;
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	border-radius: 9px;
+}
+
+#footer-links-container {
+	float: left;
+	width: 900px;
+}
+
+.footer-links {
+	float: left;
+	margin-right: 10px;
+	font-size: 12px;
+	width: 170px;
+	padding-bottom: 10px;
+}
+
+.footer-links li {
+	padding-bottom: 6px;
+}
+
+.footer-links a {
+	color: #3c4a2d;
+}
+
+#footer-social {
+	float: right;
+	width: 41px;
+}
+
+#footer-social img {
+	margin: 2px 0 13px;
+}
+
+.sharebox {
+	margin: 20px 0px;
+	}
+
